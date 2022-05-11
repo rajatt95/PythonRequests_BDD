@@ -1,5 +1,5 @@
 # PythonRequests_BDD
-Automation Testing | API | Requests | Python | PyCharm | BDD | Cucumber | Hooks | Parameterization | Tagging | Allure Reports
+Automation Testing | API | Requests | Python | PyCharm | BDD | Hooks | Parameterization | Tagging | Allure Reports
 
 ------------------------------------------------------------------------------------------------------------------------
 # Course: <a href="https://www.udemy.com/course/python-sdet-rest-api-automation/">Learn API Automation Testing with Python & BDD Framework </a>
