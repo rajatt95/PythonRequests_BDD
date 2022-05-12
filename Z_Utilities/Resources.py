@@ -10,7 +10,25 @@
 #
 # /***************************************************/
 
-# /** * Project name: PythonRequests_BDD
-# * https://github.com/rajatt95/PythonRequests_BDD *
-#
-# About: Automation Testing | API | Requests | Python | PyCharm - Professional Edition | BDD | Behave | Hooks | Parameterization | Tagging | Allure Reports */
+class API_Resources:
+    # Application: Library
+    # Get Book
+    getBook = 'Library/GetBook.php'
+    # Add Book
+    addBook = 'Library/AddBook.php'
+    # Delete Book
+    deleteBook = 'Library/DeleteBook.php'
+
+    # Application: Library
+    # Get User Repos
+    github_getUserRepos = 'user/repos'
+
+
+
+
+
+
+
+
+
+

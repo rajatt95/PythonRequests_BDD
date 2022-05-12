@@ -10,7 +10,18 @@
 #
 # /***************************************************/
 
-# /** * Project name: PythonRequests_BDD
-# * https://github.com/rajatt95/PythonRequests_BDD *
-#
-# About: Automation Testing | API | Requests | Python | PyCharm - Professional Edition | BDD | Behave | Hooks | Parameterization | Tagging | Allure Reports */
+from behave import *
+
+# age:d -> This will be treated as integer
+# @given('Do Sign in with {age:d}')
+
+@given('Do Sign in with {email} and {password}')
+def step_impl(context, email, password):
+    print("var_email: " + email)
+    print("var_password: " + password)
+    print("")
+
+
+
+
+

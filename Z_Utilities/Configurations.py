@@ -10,7 +10,23 @@
 #
 # /***************************************************/
 
-# /** * Project name: PythonRequests_BDD
-# * https://github.com/rajatt95/PythonRequests_BDD *
-#
-# About: Automation Testing | API | Requests | Python | PyCharm - Professional Edition | BDD | Behave | Hooks | Parameterization | Tagging | Allure Reports */
+import configparser
+
+
+def getConfig():
+    config = configparser.ConfigParser()
+    # read() -> Method to read the data from .ini file
+    # As an argument -> We have to give the path of the file
+    config.read('../Z_Utilities/properties.ini')
+    return config
+
+
+
+
+
+
+
+
+
+
+

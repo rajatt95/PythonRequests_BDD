@@ -10,7 +10,15 @@
 #
 # /***************************************************/
 
-# /** * Project name: PythonRequests_BDD
-# * https://github.com/rajatt95/PythonRequests_BDD *
-#
-# About: Automation Testing | API | Requests | Python | PyCharm - Professional Edition | BDD | Behave | Hooks | Parameterization | Tagging | Allure Reports */
+
+from behave import *
+
+response = 200
+
+
+# age:d -> This will be treated as integer
+# @given('Do Sign in with {age:d}')
+
+@given('Response Status Code should be {expectedStatusCode:d}')
+def step_impl(context, expectedStatusCode):
+    assert context.response.status_code == expectedStatusCode
