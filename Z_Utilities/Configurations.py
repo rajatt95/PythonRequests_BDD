@@ -12,21 +12,12 @@
 
 import configparser
 
+config = configparser.ConfigParser()
+
 
 def getConfig():
-    config = configparser.ConfigParser()
     # read() -> Method to read the data from .ini file
     # As an argument -> We have to give the path of the file
-    config.read('../Z_Utilities/properties.ini')
+    config.read('../../Z_Utilities/properties.ini')
     return config
-
-
-
-
-
-
-
-
-
-
 

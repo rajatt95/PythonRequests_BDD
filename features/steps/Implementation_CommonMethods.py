@@ -10,15 +10,15 @@
 #
 # /***************************************************/
 
-
-from behave import *
-
-response = 200
-
-
-# age:d -> This will be treated as integer
-# @given('Do Sign in with {age:d}')
-
-@given('Response Status Code should be {expectedStatusCode:d}')
-def step_impl(context, expectedStatusCode):
-    assert context.response.status_code == expectedStatusCode
+#
+# from behave import *
+#
+# response = 200
+#
+#
+# # age:d -> This will be treated as integer
+# # @given('Do Sign in with {age:d}')
+#
+# @given('Response Status Code should be {expectedStatusCode:d}')
+# def step_impl(context, expectedStatusCode):
+#     assert context.response.status_code == expectedStatusCode

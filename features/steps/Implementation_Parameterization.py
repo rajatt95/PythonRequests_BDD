@@ -12,6 +12,7 @@
 
 from behave import *
 
+
 # age:d -> This will be treated as integer
 # @given('Do Sign in with {age:d}')
 
@@ -20,8 +21,3 @@ def step_impl(context, email, password):
     print("var_email: " + email)
     print("var_password: " + password)
     print("")
-
-
-
-
-
